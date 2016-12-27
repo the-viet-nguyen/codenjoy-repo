@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.codenjoy</groupId>
+  <artifactId>codenjoy</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.20-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20161227004909</lastUpdated>
+  </versioning>
+</metadata>
