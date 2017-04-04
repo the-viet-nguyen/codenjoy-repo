@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.codenjoy</groupId>
+    <artifactId>codenjoy-parent</artifactId>
+    <version>1.0.22</version>
+    <packaging>pom</packaging>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>codenjoy-snapshots</id>
+            <url>https://github.com/the-viet-nguyen/codenjoy-repo/raw/master/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <modules>
+        <module>games</module>
+        <module>server</module>
+        <module>builder</module>
+        <module>utilities</module>
+    </modules>
+
+    <!--<build>-->
+        <!--<plugins>-->
+            <!--<plugin>-->
+                <!--<groupId>com.github.github</groupId>-->
+                <!--<artifactId>site-maven-plugin</artifactId>-->
+                <!--<version>0.12</version>-->
+                <!--<configuration>-->
+                    <!--<outputDirectory>-->
+                        <!--file://${project.build.directory}/staging/-->
+                    <!--</outputDirectory>-->
+                    <!--<includes>-->
+                        <!--<include>**/*</include>-->
+                    <!--</includes>-->
+                    <!--<repositoryOwner>the-viet-nguyen</repositoryOwner>-->
+                    <!--<repositoryName>codenjoy-repo</repositoryName>-->
+                    <!--<branch>ref/tags/v${project.version}</branch>-->
+                    <!--<message>v${project.version}</message>-->
+                <!--</configuration>-->
+                <!--<executions>-->
+                    <!--<execution>-->
+                        <!--<phase>deploy</phase>-->
+                        <!--<goals>-->
+                            <!--<goal>site</goal>-->
+                        <!--</goals>-->
+                    <!--</execution>-->
+                <!--</executions>-->
+            <!--</plugin>-->
+        <!--</plugins>-->
+    <!--</build>-->
+</project>
